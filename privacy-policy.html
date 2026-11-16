@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - PDFRead</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --primary: #2563eb;
+      --border: #e2e8f0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card: #1e293b;
+        --text: #f8fafc;
+        --muted: #94a3b8;
+        --primary: #60a5fa;
+        --border: #334155;
+      }
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 24px 16px 64px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      background-color: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px 28px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 1.9rem;
+      color: var(--primary);
+    }
+    h2 {
+      margin-top: 28px;
+      font-size: 1.25rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+    p, li {
+      color: var(--text);
+      font-size: 0.98rem;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 24px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(37, 99, 235, 0.12);
+      color: var(--primary);
+      font-weight: 600;
+      font-size: 0.82rem;
+      margin-bottom: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <span class="badge">Official Privacy Policy</span>
+    <h1>Privacy Policy for PDFRead</h1>
+    <p class="meta">
+      <strong>Effective Date:</strong> November 16, 2026 &nbsp;|&nbsp;
+      <strong>Last Updated:</strong> November 16, 2026<br />
+      <strong>Application:</strong> PDFRead (<code>com.nikhilcrlabs.pdfread</code>)<br />
+      <strong>Developer:</strong> Nikhil CR Labs
+    </p>
+
+    <p>
+      Nikhil CR Labs ("we", "our", or "us") built the <strong>PDFRead</strong> mobile application
+      (package name: <code>com.nikhilcrlabs.pdfread</code>) as a commercial/freemium application for Android.
+      This Privacy Policy explains how information is accessed, processed, and protected when you use PDFRead.
+    </p>
+
+    <h2>1. Local-First Document Processing (Zero Document Uploads)</h2>
+    <p>
+      <strong>Your PDF documents stay on your device.</strong> PDFRead is engineered as a local-first document reader and PDF utility:
+    </p>
+    <ul>
+      <li>All PDF viewing, searching, zooming, bookmarking, text highlighting, freehand annotations, signatures, and password unlocking/removal operations are performed <strong>100% locally on your Android device</strong>.</li>
+      <li>We do <strong>not</strong> upload, transmit, store, or inspect your PDF files, document contents, annotations, signatures, or PDF passwords on any external server.</li>
+      <li>Document metadata (such as recent files, favorite status, last read page, and local annotations) is stored exclusively in a local database on your device.</li>
+    </ul>
+
+    <h2>2. Device Permissions We Request and Why</h2>
+    <p>To provide core PDF reading and file management features, PDFRead requests the following permissions:</p>
+    <ul>
+      <li>
+        <strong>Storage &amp; All Files Access (<code>MANAGE_EXTERNAL_STORAGE</code> on Android 11+ / <code>READ_EXTERNAL_STORAGE</code> &amp; <code>WRITE_EXTERNAL_STORAGE</code> on Android 10 and below):</strong>
+        Used solely to scan, list, open, rename, delete, share, and save annotated or unlocked PDF documents stored across your device's internal and external storage folders. PDFRead never accesses or transmits your files off your device.
+      </li>
+      <li>
+        <strong>Internet &amp; Network State (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>):</strong>
+        Used strictly to load advertisements (via Google AdMob for free-tier users) and to verify/process in-app subscriptions (via Google Play Billing).
+      </li>
+      <li>
+        <strong>Google Play Billing Service (<code>com.android.vending.BILLING</code>) &amp; Advertising ID (<code>com.google.android.gms.permission.AD_ID</code>):</strong>
+        Used to manage PDFRead Premium subscriptions and display advertisements in the free version of the app.
+      </li>
+    </ul>
+
+    <h2>3. Third-Party Services &amp; SDK Disclosures</h2>
+    <p>
+      While PDFRead itself does not collect or store personal data on its own servers, the app integrates official Google SDKs for monetization and subscription management. These third-party services may automatically collect limited device and diagnostic information in accordance with their own privacy policies:
+    </p>
+    <ul>
+      <li>
+        <strong>Google AdMob (Google Mobile Ads SDK):</strong>
+        Used in the Free version of PDFRead to display Banner, Interstitial, and App Open advertisements. AdMob may access and use your device's Advertising ID, IP address (for coarse location estimation), device/app interaction signals, and diagnostic information to serve and measure ads and prevent fraud. When you upgrade to <strong>PDFRead Premium</strong>, advertisements are disabled.
+        <br />
+        Learn more: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a> |
+        <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener noreferrer">How Google uses information from sites or apps that use our services</a>
+      </li>
+      <li>
+        <strong>Google Play Billing (In-App Subscriptions):</strong>
+        All subscription transactions (Monthly and Annual PDFRead PRO plans) are processed directly by Google Play. We do not collect, receive, or store your credit card numbers, bank account details, or billing address. We only receive anonymized purchase tokens and entitlement status from the Google Play Billing API to unlock Premium features on your device.
+        <br />
+        Learn more: <a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice" target="_blank" rel="noopener noreferrer">Google Payments Privacy Notice</a>
+      </li>
+    </ul>
+
+    <h2>4. Advertising ID &amp; Your Opt-Out Choices</h2>
+    <p>
+      You can reset or delete your Android Advertising ID, or opt out of personalized advertising at any time through your device settings:
+    </p>
+    <ul>
+      <li>Open your Android device's <strong>Settings &rarr; Google &rarr; All services &rarr; Ads</strong>.</li>
+      <li>Select <strong>Reset advertising ID</strong> or <strong>Delete advertising ID</strong>.</li>
+      <li>Alternatively, you can subscribe to <strong>PDFRead Premium</strong> inside the app for a completely ad-free experience.</li>
+    </ul>
+
+    <h2>5. Data Retention &amp; Deletion</h2>
+    <ul>
+      <li><strong>Local App Data:</strong> All reading progress, favorites, local annotations, and user preferences are stored locally on your device. You can delete this data at any time by clearing the app's storage in Android Settings or uninstalling PDFRead.</li>
+      <li><strong>PDF Files:</strong> Uninstalling the app does not delete PDF files saved in your device's shared storage unless you explicitly delete a file using the in-app Delete action.</li>
+    </ul>
+
+    <h2>6. Data Security</h2>
+    <p>
+      We prioritize the security of your documents by keeping all PDF rendering, password removal, and annotation workflows strictly on-device. All communication between third-party Google SDKs (AdMob and Google Play Billing) and Google servers is encrypted in transit using industry-standard HTTPS/TLS.
+    </p>
+
+    <h2>7. Children's Privacy</h2>
+    <p>
+      PDFRead is a general-audience productivity utility and is not directed to children under the age of 13 (or the applicable age of digital consent in your jurisdiction). We do not knowingly collect personal information from children.
+    </p>
+
+    <h2>8. Your Privacy Rights (GDPR / CCPA / Global Privacy Laws)</h2>
+    <p>
+      Depending on your location, you may have rights under applicable data protection laws (including GDPR and CCPA) to request information about data processing, restrict personalized advertising, or delete local data. Because we do not maintain user accounts or store personal data on our own servers, you have full control over your local data directly on your device.
+    </p>
+
+    <h2>9. Changes to This Privacy Policy</h2>
+    <p>
+      We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date at the top of this policy.
+    </p>
+
+    <h2>10. Contact Us</h2>
+    <p>
+      If you have any questions, concerns, or requests regarding this Privacy Policy or how PDFRead handles your data, please contact us at:
+    </p>
+    <p>
+      <strong>Developer:</strong> Nikhil CR Labs<br />
+      <strong>Email:</strong> <a href="mailto:nikhilcrlabs@gmail.com">nikhilcrlabs@gmail.com</a>
+    </p>
+  </div>
+</body>
+</html>
